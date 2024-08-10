@@ -8,8 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!--BOOSTRAP-->
 
-    <link rel="stylesheet" href="style.css">
-    <title>Tp 1 ejercicio 1</title>
+    <link rel="stylesheet" href="../vista/style.css">
+    <title>Resolucion Tp 1 ejercicio 1</title>
 </head>
 <body>
 
@@ -24,7 +24,7 @@
               Practico 1
             </button>
             <ul class="dropdown-menu" role="menu">
-              <li><a class="dropdown-item" href="ejercicio1.php">ejercicio 1</a></li>
+              <li><a class="dropdown-item" href="../vista/ejercicio1.php">ejercicio 1</a></li>
               <li><a class="dropdown-item" href="ejercicio2.php">ejercicio 2</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
@@ -88,26 +88,46 @@
                 <div class="col">
                   <h1>Consigna: 1 </h1>
                   <p>
-                  a) Cree una variable, asignarle un valor y muestre su contenido con una instrucción 
-                  echo. <br>
-                  b) Escriba el valor de la variable de forma que aparezca en un párrafo explicativo (por 
-                  ejemplo: “El valor de X es: …”)</p>
+                   Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe 
+                   llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número 
+                   enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la 
+                   respuesta, que permita volver a la página anterior.</p>
                 </div>
               </div>
             
               <div class="row border border-dark mt-5">
                 <div class="col">
-                  <h1>Resolucion</h1>
-                  <?php
-                  $valor = "Hola Mundo";
-                  echo "El valor de x es : $valor";
-                  ?>
+
+                  <h1>Resolucion:</h1>
+
+                    <?php
+                    if($_GET){
+                        $numero = $_GET["numero"];
+
+                        if($numero > 0){
+                            echo "El numero que ingreso es positivo.";
+                        }else if($numero < 0){
+                            echo "El numero que ingreso es negativo.";
+                        }else{
+                            echo "El numero que ingreso es cero.";
+                        }
+
+                    }else{
+                        echo "no ingreso nada";
+                    }
+                    ?>
+
+                    <div class="mt-2">
+                    <button class="btn btn-success"><a href="../vista/ejercicio1.php">Volver</a></button>
+                    </div>
+
                 </div>
               </div>
 
               <div class="row border border-dark mt-5">
                 <div class="col">
-                <img src="imagenes/uno.png" alt="" style="width: 50%;">
+                  <p>MOSTRAR CODIGO</p>
+                  <img src="" alt="" style="width: 50%;">
                 </div>
               </div>
 
@@ -126,3 +146,4 @@
 
 </body>
 </html>
+

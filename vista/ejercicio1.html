@@ -24,7 +24,7 @@
               Practico 1
             </button>
             <ul class="dropdown-menu" role="menu">
-              <li><a class="dropdown-item" href="../vista/ejercicio1.php">ejercicio 1</a></li>
+              <li><a class="dropdown-item" href="../vista/ejercicio1.php" id="ejercicio1.php">ejercicio 1</a></li>
               <li><a class="dropdown-item" href="../vista/ejercicio2.php">ejercicio 2</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
@@ -86,25 +86,41 @@
               <div class="row border border-dark">
 
                 <div class="col">
-                  <h1>Consigna: 2</h1>
+                  <h1>Consigna: 1 </h1>
                   <p>
-                  Ejercicio 2 – Crear un script php que guarde en diferentes variables su nombre, apellido, edad
-                  y dirección y luego muestre en pantalla estos datos con letra mayúscula. 
-                  Cuando ejecute la pagina dentro del navegador, observe el código fuente y analice las
-                  diferencias entre el código escrito y el código que esta viendo. </p>
+                   Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe 
+                   llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número 
+                   enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la 
+                   respuesta, que permita volver a la página anterior.</p>
                 </div>
               </div>
             
               <div class="row border border-dark mt-5">
                 <div class="col">
+
                   <h1>Resolucion:</h1>
-                  
-                </div>
+
+                  <form action="../control/vernumero.php" method ="get">
+
+                     <div class="form-group d-inline-block">
+                        <label for="">Ingrese un numero</label>
+                       <input name="numero" type="number" class="form-control" placeholder="ej : 15" required>                  
+                     </div>
+                    
+                     </div>
+                     <div class="mt-2">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                     </div>
+
+                  </form>
+
+
               </div>
 
               <div class="row border border-dark mt-5">
                 <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
+                  <p>MOSTRAR CODIGO</p>
+                  <img src="" alt="" style="width: 50%;">
                 </div>
               </div>
 
