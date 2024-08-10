@@ -95,15 +95,19 @@
                 </div>
               </div>
             
-              <div class="row border border-dark">
+              <div class="row border border-dark mt-5">
                 <div class="col">
-                  <p>Codigo ya corriendo</p>
+                  <h1>Resolucion</h1>
+                  <?php
+                  $valor = "Hola Mundo";
+                  echo "El valor de x es : $valor";
+                  ?>
                 </div>
               </div>
 
-              <div class="row border border-dark">
+              <div class="row border border-dark mt-5">
                 <div class="col">
-                <p>imagen</p>
+                <img src="imagenes/uno.png" alt="" style="width: 50%;">
                 </div>
               </div>
 
