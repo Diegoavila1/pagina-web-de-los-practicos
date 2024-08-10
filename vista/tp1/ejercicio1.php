@@ -30,18 +30,14 @@
           Practico 1
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../vista/ejercicio1.php" id="ejercicio1.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio2.php">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio3.php">ejercicio 3</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio4.php">ejercicio 4</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio5.php">ejercicio 5</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio6.php">ejercicio 6</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio7.php">ejercicio 7</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio8.php">ejercicio 8</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio9.php">ejercicio 9</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio10.php">ejercicio 10</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio11.php">ejercicio 11</a></li>
-          <li><a class="dropdown-item" href="../vista/ejercicio12.php">ejercicio 12</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio1.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio2.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio3.php">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio4.php">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio5.php">ejercicio 5</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio6.php">ejercicio 6</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio7.php">ejercicio 7</a></li>
+          <li><a class="dropdown-item" href="../tp1/ejercicio8.php">ejercicio 8</a></li>
         </ul>
       </div>
 

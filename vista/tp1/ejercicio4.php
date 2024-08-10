@@ -30,19 +30,15 @@
                     Practico 1
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a class="dropdown-item" href="../vista/ejercicio1.php">ejercicio 1</a></li>
-                    <li><a class="dropdown-item" href="../vista/ejercicio2.php">ejercicio 2</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 5</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 6</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 7</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 8</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 9</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 10</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 11</a></li>
-                    <li><a class="dropdown-item" href="#">ejercicio 12</a></li>
-                </ul>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio1.php">ejercicio 1</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio2.php">ejercicio 2</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio3.php">ejercicio 3</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio4.php">ejercicio 4</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio5.php">ejercicio 5</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio6.php">ejercicio 6</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio7.php">ejercicio 7</a></li>
+                    <li><a class="dropdown-item" href="../tp1/ejercicio8.php">ejercicio 8</a></li>
+            </ul>
             </div>
 
             <div class="dropdown me-2">
@@ -75,7 +71,7 @@
         <div class="row border border-dark">
 
             <div class="col">
-                <h1>Consigna: 3</h1>
+                <h1>Consigna: 4</h1>
                 <p>
                     Crear una página php que contenga un formulario HTML como el que se indica en la 
                     imagen (darle formato con CSS), enviar estos datos por el método Post a otra página php 
@@ -88,7 +84,9 @@
         <div class="row border border-dark mt-5">
             <div class="col">
                 <h1>Resolucion:</h1>
+
                 <form action="../control/vernombre.php" method="post">
+                    <label for="#">POST</label>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre">
@@ -106,6 +104,29 @@
                         <input type="text" class="form-control" id="direccion" name="direccion">
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+
+                <form action="../control/vernombre.php" method="get">
+                    <label for="#">GET</label>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="text" class="form-control" id="edad" name="edad">
+                    </div>
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="direccion" name="direccion">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                
             </div>
         </div>
 

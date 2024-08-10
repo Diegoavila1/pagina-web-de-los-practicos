@@ -24,18 +24,14 @@
               Practico 1
             </button>
             <ul class="dropdown-menu" role="menu">
-              <li><a class="dropdown-item" href="../vista/ejercicio1.php">ejercicio 1</a></li>
-              <li><a class="dropdown-item" href="../vista/ejercicio2.php">ejercicio 2</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 5</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 6</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 7</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 8</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 9</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 10</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 11</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 12</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio1.php">ejercicio 1</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio2.php">ejercicio 2</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio3.php">ejercicio 3</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio4.php">ejercicio 4</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio5.php">ejercicio 5</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio6.php">ejercicio 6</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio7.php">ejercicio 7</a></li>
+                <li><a class="dropdown-item" href="../tp1/ejercicio8.php">ejercicio 8</a></li>
             </ul>
           </div>
       
@@ -48,14 +44,6 @@
               <li><a class="dropdown-item" href="#">ejercicio 2</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 5</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 6</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 7</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 8</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 9</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 10</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 11</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 12</a></li>
             </ul>
           </div>
       
@@ -67,15 +55,6 @@
               <li><a class="dropdown-item" href="#">ejercicio 1</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 2</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 5</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 6</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 7</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 8</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 9</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 10</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 11</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 12</a></li>
             </ul>
           </div>
         </nav>
