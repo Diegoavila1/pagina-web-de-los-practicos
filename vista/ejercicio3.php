@@ -88,16 +88,24 @@
         <div class="row border border-dark mt-5">
             <div class="col">
                 <h1>Resolucion:</h1>
-                <?php
-                    $nombre = "juan";
-                    $apellido = "perez";
-                    $edad = 30;
-                    $direccion = "calle falsa 123";
-                    echo "<p>Nombre: ".strtoupper($nombre)."</p>";
-                    echo "<p>Apellido: ".strtoupper($apellido)."</p>";
-                    echo "<p>Edad: ".strtoupper($edad)."</p>";
-                    echo "<p>Direccion: ".strtoupper($direccion)."</p>";
-                  ?>
+                <form action="../control/vernombre.php" method="post">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="text" class="form-control" id="edad" name="edad">
+                    </div>
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="direccion" name="direccion">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </div>
 
