@@ -98,7 +98,16 @@
               <div class="row border border-dark mt-5">
                 <div class="col">
                   <h1>Resolucion:</h1>
-                  
+                  <?php
+                    $nombre = "juan";
+                    $apellido = "perez";
+                    $edad = 30;
+                    $direccion = "calle falsa 123";
+                    echo "<p>Nombre: ".strtoupper($nombre)."</p>";
+                    echo "<p>Apellido: ".strtoupper($apellido)."</p>";
+                    echo "<p>Edad: ".strtoupper($edad)."</p>";
+                    echo "<p>Direccion: ".strtoupper($direccion)."</p>";
+                  ?>
                 </div>
               </div>
 

@@ -101,8 +101,8 @@
                   <h1>Resolucion:</h1>
 
                     <?php
-                    if($_GET){
-                        $numero = $_GET["numero"];
+                    if($_POST){
+                        $numero = $_POST["numero"];
 
                         if($numero > 0){
                             echo "El numero que ingreso es positivo.";
@@ -118,7 +118,7 @@
                     ?>
 
                     <div class="mt-2">
-                    <button class="btn btn-success"><a href="../vista/ejercicio1.php">Volver</a></button>
+                    <button class="btn btn-success"><a href="../vista/ejercicio1.html">Volver</a></button>
                     </div>
 
                 </div>
