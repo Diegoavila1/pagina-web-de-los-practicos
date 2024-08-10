@@ -25,7 +25,7 @@
             </button>
             <ul class="dropdown-menu" role="menu">
               <li><a class="dropdown-item" href="ejercicio1.php">ejercicio 1</a></li>
-              <li><a class="dropdown-item" href="#">ejercicio 2</a></li>
+              <li><a class="dropdown-item" href="ejercicio2.php">ejercicio 2</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
               <li><a class="dropdown-item" href="#">ejercicio 5</a></li>
@@ -86,7 +86,7 @@
               <div class="row border border-dark">
 
                 <div class="col">
-                  <h1>Consigna: </h1>
+                  <h1>Consigna: 1 </h1>
                   <p>
                   a) Cree una variable, asignarle un valor y muestre su contenido con una instrucción 
                   echo. <br>

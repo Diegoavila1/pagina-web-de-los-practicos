@@ -9,7 +9,7 @@
     <!--BOOSTRAP-->
 
     <link rel="stylesheet" href="style.css">
-    <title>Practicos PWD</title>
+    <title>Tp 1 ejercicio 1</title>
 </head>
 <body>
 
@@ -81,13 +81,45 @@
         </nav>
       </header>
 
-      <main class="container " style="min-height:600px; background-color : rgb(85 153 254)">
+      <main class="container" style="min-height:600px; background-color : rgb(85 153 254)">
 
-        <div class="row text-center">
+              <div class="row border border-dark">
 
-            <div class="col columna-especial" style="margin-top:18%">
-                <h1 class="rounded text-light">Programacion Web Dinamica</h1>
-            </div>
+                <div class="col">
+                  <h1>Consigna: 2</h1>
+                  <p>
+                  Ejercicio 2 – Crear un script php que guarde en diferentes variables su nombre, apellido, edad
+                  y dirección y luego muestre en pantalla estos datos con letra mayúscula. 
+                  Cuando ejecute la pagina dentro del navegador, observe el código fuente y analice las
+                  diferencias entre el código escrito y el código que esta viendo. </p>
+                </div>
+              </div>
+            
+              <div class="row border border-dark mt-5">
+                <div class="col">
+                  <h1>Resolucion:</h1>
+                  <?php
+                    $nombre = "Diego";
+                    $apellido = "Rios";
+                    $edad = 19;
+                    $direccion = "Lagos del rio";
+
+
+                    $informacionPersonal = ["nombre" => $nombre , "apellido" => $apellido , "edad" => $edad,  "direccion" => $direccion];
+
+                    foreach($informacionPersonal as $tipo => $dato){
+                        echo $tipo. ":" .strtoupper($dato) ."<br>";
+                        
+                    }
+                  ?>
+                </div>
+              </div>
+
+              <div class="row border border-dark mt-5">
+                <div class="col">
+                <img src="imagenes/dos.png" alt="" style="width: 50%;">
+                </div>
+              </div>
 
 
         </div>
