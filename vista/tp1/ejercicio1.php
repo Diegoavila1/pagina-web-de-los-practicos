@@ -85,10 +85,10 @@
 
         <h1>Resolucion:</h1>
 
-        <form action="../control/vernumero.php" method="post">
+        <form action="../../action/tp1ej1.php" method="post">
 
           <div class="form-group d-inline-block">
-            <label for="">Ingrese un numero</label>
+            <label form="">Ingrese un numero</label>
             <input name="numero" type="number" class="form-control" placeholder="ej : 15" required>
 
           </div>
