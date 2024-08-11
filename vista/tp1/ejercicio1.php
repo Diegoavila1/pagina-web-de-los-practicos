@@ -90,7 +90,7 @@
           <div class="form-group d-inline-block">
             <label form="">Ingrese un numero</label>
             <input name="numero" type="number" class="form-control" placeholder="ej : 15" required>
-
+            
           </div>
 
       </div>
