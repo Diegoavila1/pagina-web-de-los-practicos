@@ -1,7 +1,9 @@
 <html>
     <?php
-
+    include_once '../vista/tp1/ejercicio1.php';
     include_once '../control/vernumero.php';
+    include_once '../vista/tp1/style.css';
+    
 
     if(isset($_POST['numero'])){
         $numero = $_POST['numero'];
