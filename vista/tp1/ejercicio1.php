@@ -16,7 +16,7 @@
   <title>Tp 1 ejercicio 1</title>
 </head>
 
-<body>
+<body style="font-family: arial">
 
   <header class="navbar">
     <nav class="container-fluid d-flex justify-content-start border border-secondary rounded">
@@ -85,12 +85,20 @@
 
         <h1>Resolucion:</h1>
 
-        <form action="../../action/tp1ej1.php" method="post">
-
+        <form action="#" method="post">
           <div class="form-group d-inline-block" id="resultado">
             <label form="">Ingrese un numero</label>
             <input name="numero" type="number" class="form-control" placeholder="ej : 15" required>
-            
+            <?php
+            include '../../control/tipoNumero.php';
+            if (isset($_POST['numero'])) {
+              $numero = $_POST['numero'];
+              $obj = new tipoNumero($numero);
+              echo "<p>El numero ingresado era {$obj->tipo()}</p>";
+            } else{
+              echo "<p>Ingrese un numero</p>";
+            }
+            ?>
           </div>
 
       </div>
@@ -99,12 +107,14 @@
       </div>
 
       </form>
-
-
     </div>
 
     <div class="row border border-dark mt-5">
       <div class="col">
+        <p>MOSTRAR CODIGO</p>
+        <img src="" alt="" style="width: 50%;">
+      </div>
+       <div class="col">
         <p>MOSTRAR CODIGO</p>
         <img src="" alt="" style="width: 50%;">
       </div>

@@ -1,5 +1,5 @@
 <?php
-class TipoNumero{
+class tipoNumero{
 
     private $numero;
     
@@ -23,7 +23,6 @@ class TipoNumero{
         }else{
             $tipo = 'cero';
         }
-
         return $tipo;
     }
 }

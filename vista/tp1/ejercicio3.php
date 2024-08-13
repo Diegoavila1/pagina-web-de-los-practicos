@@ -16,7 +16,7 @@
     <title>Tp 1 ejercicio 3</title>
 </head>
 
-<body>
+<body style="font-family: arial">
 
     <header class="navbar">
         <nav class="container-fluid d-flex justify-content-start border border-secondary rounded">
@@ -84,7 +84,41 @@
         <div class="row border border-dark mt-5">
             <div class="col">
                 <h1>Resolucion:</h1>
-                <form action="../control/vernombre.php" method="post">
+                <h3>POST</h3>
+                <form action="#" method="post">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="text" class="form-control" id="edad" name="edad">
+                    </div>
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="direccion" name="direccion">
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <?php
+                    if ($_POST) {
+                        include "../../control/saludo.php";
+                        $nombre = $_POST['nombre'];
+                        $apellido = $_POST['apellido'];
+                        $edad = $_POST['edad'];
+                        $direccion = $_POST['direccion'];
+                        $saludo = new saludo($nombre, $apellido, $edad, $direccion);
+                        echo "<p>" . $saludo->saludo() . "</p>";
+                    }
+                    ?>
+                </form>
+
+                <form action="#" method="get">
+                    <h3>GET</h3>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre">
@@ -102,6 +136,21 @@
                         <input type="text" class="form-control" id="direccion" name="direccion">
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
+                    <?php
+                    if ($_GET) {
+                        include "../../control/saludo.php";
+                        $nombre = $_GET['nombre'];
+                        $apellido = $_GET['apellido'];
+                        $edad = $_GET['edad'];
+                        $direccion = $_GET['direccion'];
+                        echo $nombre;
+                        $saludo2 = new saludo($nombre, $apellido, $edad, $direccion);
+                        echo "<p>" . $saludo2->saludo() . "</p>";
+                    }
+                    ?>
+                     
+                </form>
+                 
             </div>
         </div>
 

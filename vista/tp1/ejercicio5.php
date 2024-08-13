@@ -16,7 +16,7 @@
     <title>Tp 1 ejercicio 3</title>
 </head>
 
-<body>
+<body style="font-family: arial">
 
     <header class="navbar">
         <nav class="container-fluid d-flex justify-content-start border border-secondary rounded">

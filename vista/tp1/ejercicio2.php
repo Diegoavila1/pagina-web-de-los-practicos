@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Tp 1 ejercicio 1</title>
 </head>
-<body>
+<body style="font-family: arial">
 
     <header class="navbar">
         <nav class="container-fluid d-flex justify-content-start border border-secondary rounded">
@@ -78,14 +78,19 @@
                 <div class="col">
                   <h1>Resolucion:</h1>
                   <?php
+                  include "../../control/mayusculas.php";
                     $nombre = "juan";
                     $apellido = "perez";
                     $edad = 30;
                     $direccion = "calle falsa 123";
-                    echo "<p>Nombre: ".strtoupper($nombre)."</p>";
-                    echo "<p>Apellido: ".strtoupper($apellido)."</p>";
-                    echo "<p>Edad: ".strtoupper($edad)."</p>";
-                    echo "<p>Direccion: ".strtoupper($direccion)."</p>";
+                    $mayusculas = new mayusculas($nombre);
+                    $mayusculas2 = new mayusculas($apellido);
+                    $mayusculas3 = new mayusculas($edad);
+                    $mayusculas4 = new mayusculas($direccion);
+                    echo "<p>Nombre: ".$mayusculas->mayusculas()."</p>";
+                    echo "<p>Apellido: ".$mayusculas2->mayusculas()."</p>";
+                    echo "<p>Edad: ".$mayusculas3->mayusculas()."</p>";
+                    echo "<p>Direccion: ".$mayusculas4->mayusculas()."</p>";
                   ?>
                 </div>
               </div>

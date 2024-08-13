@@ -16,7 +16,7 @@
     <title>Tp 1 ejercicio 3</title>
 </head>
 
-<body>
+<body style="font-family: arial">
 
     <header class="navbar">
         <nav class="container-fluid d-flex justify-content-start border border-secondary rounded">
@@ -73,11 +73,11 @@
             <div class="col">
                 <h1>Consigna: 4</h1>
                 <p>
-                    Crear una página php que contenga un formulario HTML como el que se indica en la 
-                    imagen (darle formato con CSS), enviar estos datos por el método Post a otra página php 
-                    que los reciba y muestre por pantalla un mensaje como el siguiente: “Hola, yo soy 
-                    nombre , apellido tengo edad años y vivo en dirección”, usando la información recibida.
-                    Cambiar el método Post por Get y analizar las diferencias </p>
+                    Modificar el formulario del ejercicio anterior para que usando la edad solicitada, enviar 
+esos datos a otra página en donde se muestren mensajes distintos dependiendo si la 
+persona es mayor de edad o no; (si la edad es mayor o igual a 18).
+Enviar los datos usando el método GET y luego probar de modificar los datos 
+directamente en la url para ver los dos posibles mensajes. </p>
             </div>
         </div>
 
@@ -86,7 +86,7 @@
                 <h1>Resolucion:</h1>
 
                 <form action="../control/vernombre.php" method="post">
-                    <label for="#">POST</label>
+                    <h3>POST</h3>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre">
@@ -107,7 +107,7 @@
                 </form>
 
                 <form action="../control/vernombre.php" method="get">
-                    <label for="#">GET</label>
+                    <h3>GET</h3>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre">
