@@ -85,7 +85,7 @@
         <div class="row border border-dark mt-5">
             <div class="col">
                 <h1>Resolucion:</h1>
-                <form action="../control/vernombre.php" method="post">
+                <form action="../../action/action5.php" method="post">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre">
@@ -117,8 +117,13 @@
                             Estudios secundarios
                         </label>
                      </fieldset>
+                    <select name="sexo" id="" required>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select>
                     <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
+                </form>
+                </div>
         </div>
 
         <div class="row border border-dark mt-5">

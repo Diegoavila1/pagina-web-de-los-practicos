@@ -85,7 +85,7 @@
             <div class="col">
                 <h1>Resolucion:</h1>
                 <h3>POST</h3>
-                <form action="#" method="post">
+                <form action="../../action/action3.php" method="post">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre">
@@ -104,20 +104,9 @@
                     </div>
                   
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                    <?php
-                    if ($_POST) {
-                        include "../../control/saludo.php";
-                        $nombre = $_POST['nombre'];
-                        $apellido = $_POST['apellido'];
-                        $edad = $_POST['edad'];
-                        $direccion = $_POST['direccion'];
-                        $saludo = new saludo($nombre, $apellido, $edad, $direccion);
-                        echo "<p>" . $saludo->saludo() . "</p>";
-                    }
-                    ?>
                 </form>
 
-                <form action="#" method="get">
+                <form action="../../action/action3.php" method="get">
                     <h3>GET</h3>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -136,19 +125,6 @@
                         <input type="text" class="form-control" id="direccion" name="direccion">
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                    <?php
-                    if ($_GET) {
-                        include "../../control/saludo.php";
-                        $nombre = $_GET['nombre'];
-                        $apellido = $_GET['apellido'];
-                        $edad = $_GET['edad'];
-                        $direccion = $_GET['direccion'];
-                        echo $nombre;
-                        $saludo2 = new saludo($nombre, $apellido, $edad, $direccion);
-                        echo "<p>" . $saludo2->saludo() . "</p>";
-                    }
-                    ?>
-                     
                 </form>
                  
             </div>

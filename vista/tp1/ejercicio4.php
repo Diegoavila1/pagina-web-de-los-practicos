@@ -85,7 +85,7 @@ directamente en la url para ver los dos posibles mensajes. </p>
             <div class="col">
                 <h1>Resolucion:</h1>
 
-                <form action="../control/vernombre.php" method="post">
+                <form action="../../action/action4.php" method="post">
                     <h3>POST</h3>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -106,7 +106,7 @@ directamente en la url para ver los dos posibles mensajes. </p>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
 
-                <form action="../control/vernombre.php" method="get">
+                <form action="../../action/action4.php" method="get">
                     <h3>GET</h3>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
