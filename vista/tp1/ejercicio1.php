@@ -19,10 +19,10 @@
 <body style="font-family: arial">
 
   <header class="navbar">
-    <nav class="container-fluid d-flex justify-content-start border border-secondary rounded">
+    <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
 
-      <a class="navbar-brand" href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png"
-          alt=""></a>
+      <a class="navbar-brand" href="index.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
 
 
       <div class="dropdown me-2">
@@ -64,6 +64,13 @@
         </ul>
       </div>
     </nav>
+    
+    <div class=""> 
+      <img src="../imagenes/pedco.jpg" alt="">
+      <img src="../imagenes/githubLogo.p" alt="">
+      
+    </div>
+    
   </header>
 
   <main class="container" style="min-height:600px; background-color : rgb(85 153 254)">
@@ -101,10 +108,6 @@
 
     <div class="row border border-dark mt-5">
       <div class="col">
-        <p>MOSTRAR CODIGO</p>
-        <img src="" alt="" style="width: 50%;">
-      </div>
-       <div class="col">
         <p>MOSTRAR CODIGO</p>
         <img src="" alt="" style="width: 50%;">
       </div>
